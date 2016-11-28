@@ -48,8 +48,12 @@ This script require ffmpeg, which can be installed as follows:
 
 ### Windows
 
+Using the wonderful [Chocolatey}(https://chocolatey.org/), you can install ffmpeg easily: 
+
 `choco install ffmpeg`
 
 ### macOS
+
+Similar to Windows, you can use [Homebrew](http://brew.sh/), to install ffmpeg like so: 
 
 `brew install ffmpeg`
