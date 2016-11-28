@@ -13,7 +13,7 @@ The [Infiniti manual](https://owners.infinitiusa.com/content/manualsandguides/QX
 | Bit Rates | | |
 | ----------- | --------------- | ----- |
 | .divx, .avi | Maximum Average | 4Mbps |
-| | |Maximum Peak | 8Mbps |
+| | Maximum Peak | 8Mbps |
 
 ## The ffmpeg Options
 
