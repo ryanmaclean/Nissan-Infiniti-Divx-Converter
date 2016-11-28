@@ -48,7 +48,7 @@ This script require ffmpeg, which can be installed as follows:
 
 ### Windows
 
-Using the wonderful [Chocolatey}(https://chocolatey.org/), you can install ffmpeg easily: 
+Using the wonderful [Chocolatey](https://chocolatey.org/), you can install ffmpeg easily: 
 
 `choco install ffmpeg`
 
