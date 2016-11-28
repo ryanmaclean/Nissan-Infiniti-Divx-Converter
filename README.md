@@ -10,6 +10,11 @@ The [Infiniti manual](https://owners.infinitiusa.com/content/manualsandguides/QX
 | .divx, .avi | Video Codecs | DivX3, DivX4, DivX5, DivX6 |
 | | Audio Codecs MP3 | MPEG2.5 Audio Layer3, AC3, LPCM |
 
+| Bit Rates | |
+| ----------- | --------------- | |
+| .divx, .avi | Maximum Average | 4Mbps |
+| | |Maximum Peak | 8Mbps |
+
 ## The ffmpeg Options
 
 As found on [this instuctables page for Divx conversion](http://www.instructables.com/id/Play-Video-via-USB-on-Nissan-or-Infiniti-Vehicles-/) using a separate tool, we get the parameters needed for `ffmpeg` in order to create a compatible file. 
