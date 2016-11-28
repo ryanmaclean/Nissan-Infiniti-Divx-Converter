@@ -16,7 +16,7 @@ args = parser.parse_args()
 inputfile = ''.join(args.inputarg)
 
 # These are the arguments used by ffmpeg to do the conversion
-ffmpegargs = "-f avi -r 29.97 -vcodec libxvid -vtag dx50 -vf scale=704:384 -aspect 16:9 -maxrate 8000k -b:v 1500k -qmin 3 -qmax 5 -bufsize 4096 -mbd 2 -bf 2 -trellis 1 -flags +aic -cmp 2 -subcmp 2 -g 300 -acodec libmp3lame -ar 48000 -b:a 128k -ac 2"
+ffmpegargs = "-f avi -r 29.97 -vcodec libxvid -vtag dx50 -vf scale=704:384 -aspect 16:9 -maxrate 8000k -b:v 6000k -qmin 3 -qmax 5 -bufsize 4096 -mbd 2 -bf 2 -trellis 1 -flags +aic -cmp 2 -subcmp 2 -g 300 -acodec libmp3lame -ar 48000 -b:a 128k -ac 2"
 
 # Remove the file extension using '.' as a separator, replace it with avi
 sep = '.'
