@@ -15,12 +15,17 @@ The [Infiniti manual](https://owners.infinitiusa.com/content/manualsandguides/QX
 | .divx, .avi | Maximum Average | 4Mbps |
 | | Maximum Peak | 8Mbps |
 
+| Resolution | | |
+| --------- | ------- | ----- |
+| .divx, .avi | Minimum | 32 * 32 |
+| | Maximum | 720 * 480 |
+
 ## The ffmpeg Options
 
 As found on [this instuctables page for Divx conversion](http://www.instructables.com/id/Play-Video-via-USB-on-Nissan-or-Infiniti-Vehicles-/) using a separate tool, we get the parameters needed for `ffmpeg` in order to create a compatible file. 
 
 ```
-ffmpeg -i INPUTFILE OUTPUTFILE -f avi -r 29.97 -vcodec libxvid -vtag dx50 -vf scale=704:384 -aspect 16:9 -maxrate 1800k -b:v 1500k -qmin 3 -qmax 5 -bufsize 4096 -mbd 2 -bf 2 -trellis 1 -flags +aic -cmp 2 -subcmp 2 -g 300 -acodec libmp3lame -ar 48000 -b:a 128k -ac 2
+ffmpeg -i INPUTFILE -f avi -r 29.97 -vcodec libxvid -vtag dx50 -vf scale=704:384 -aspect 16:9 -maxrate 1800k -b:v 1500k -qmin 3 -qmax 5 -bufsize 4096 -mbd 2 -bf 2 -trellis 1 -flags +aic -cmp 2 -subcmp 2 -g 300 -acodec libmp3lame -ar 48000 -b:a 128k -ac 2 OUTPUTFILE
 ```
 
 ## Parameters
