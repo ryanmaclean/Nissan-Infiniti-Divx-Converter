@@ -23,6 +23,6 @@ sep = '.'
 outputfile = inputfile.rsplit(sep, 1)[0] + ".avi"
 
 # Run ffmpeg with the inputfile, the outputfile and the arguments specified above
-command = "ffmpeg -i" + " \"" + inputfile + "\" " + outputfile + " " + ffmpegargs
-print("Command to run: ffmpeg -i %s" % command)
+command = "ffmpeg -i" + " \"" + inputfile + "\" \"" + outputfile + "\" " + ffmpegargs
+print("Command to run: %s" % command)
 subprocess.call(command, shell=True)
