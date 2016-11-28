@@ -39,7 +39,7 @@ _Note: if the destination `.avi` file exists, you'll be prompted with a `[y/N]` 
 ```
 nissan_infiniti_divx.py filename.mp4
 
-Command to run: ffmpeg -i filename.mp4 filename.avi -f avi -r 29.97 -vcodec libxvid -vtag dx50 -vf scale=704:384 -aspect 16:9 -maxrate 1800k -b:v 1500k -qmin 3 -qmax 5 -bufsize 4096 -mbd 2 -bf 2 -trellis 1 -flags +aic -cmp 2 -subcmp 2 -g 300 -acodec libmp3lame -ar 48000 -b:a 128k -ac 2
+Command to run: ffmpeg -i filename.mp4  -f avi -r 29.97 -vcodec libxvid -vtag dx50 -vf scale=704:384 -aspect 16:9 -maxrate 1800k -b:v 1500k -qmin 3 -qmax 5 -bufsize 4096 -mbd 2 -bf 2 -trellis 1 -flags +aic -cmp 2 -subcmp 2 -g 300 -acodec libmp3lame -ar 48000 -b:a 128k -ac 2 filename.avi
 
 [...]
 ```
