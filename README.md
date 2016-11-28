@@ -22,7 +22,7 @@ ffmpeg -i INPUTFILE OUTPUTFILE -f avi -r 29.97 -vcodec libxvid -vtag dx50 -vf sc
 
 The only thing we really need is the input filename - we assume a `.avi` file doesn't exist in the directory in which we run the script. Therefore, we take an input file from the command line, and stop if one doesn't exist. 
 
-_Note_: if the destination `.avi` file exists, you'll be prompted with a `[y/N]` input, the default being `no`. 
+_Note: if the destination `.avi` file exists, you'll be prompted with a `[y/N]` input, the default being `no`. _
 
 ### Example
 
