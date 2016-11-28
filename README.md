@@ -10,7 +10,7 @@ The [Infiniti manual](https://owners.infinitiusa.com/content/manualsandguides/QX
 | .divx, .avi | Video Codecs | DivX3, DivX4, DivX5, DivX6 |
 | | Audio Codecs MP3 | MPEG2.5 Audio Layer3, AC3, LPCM |
 
-| Bit Rates | |
+| Bit Rates | | |
 | ----------- | --------------- | |
 | .divx, .avi | Maximum Average | 4Mbps |
 | | |Maximum Peak | 8Mbps |
