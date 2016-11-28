@@ -1,4 +1,4 @@
-# Divx Converter for Nissan abd Infiniti Navs
+# Divx Converter for Nissan and Infiniti Navs
 Quick and dirty python script to convert files downloaded from the internet to a Divx format that conforms to the Nissan/Infiniti Nav specifications
 
 ## The Specifications
